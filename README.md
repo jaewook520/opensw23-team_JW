@@ -44,7 +44,7 @@ output video의 파일 확장자는 본래 .mkv 이지만 위의 output 비디�
 
 ## Installation
 
-#### Prerequisites
+#### Prerequisites (아래 파일들은 반드시 다운로드 되어야 함)
 - ffmpeg
 - SuperSloMo.ckpt (pretrained model trained on adobe240fps dataset)
 
