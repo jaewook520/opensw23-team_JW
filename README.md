@@ -9,7 +9,7 @@
 ## Topic Introduction
 
 - Topic: Super-SloMo
-- Source: https://github.com/avinashpaliwal/Super-SloMo
+- 출처: https://github.com/avinashpaliwal/Super-SloMo
 
 ## Results
 
@@ -31,6 +31,25 @@ output video의 파일 확장자는 본래 .mkv 이다.
 동영상 파일 변환 링크: https://cloudconvert.com/mkv-to-gif
 
 ## Installation
+
+#### Prerequisites
+- ffmpeg
+- SuperSloMo.ckpt (pretrained model trained on adobe240fps dataset)
+- PyTorch
+
+[CLEAK HERE to download ffmpeg, SuperSloMo.ckpt](https://drive.google.com/drive/folders/1jmkBRSMIKqVE3b6zSCb4pn4ZT5Mn63Nu?usp=drive_link)
+
+구글 드라이브에서 제공하는 ffmpeg는 Windows ffmpeg-6.0_full_build임. 
+
+PyTorch 설치
+```
+pip install PyTorch
+```
+
+git clone
+```
+git clone https://github.com/jaewook520/opensw23-team_PJW.git
+```
 
 
 
