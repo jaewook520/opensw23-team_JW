@@ -19,7 +19,7 @@
 ### output video
 #### Changes
 
-- 30fps to 90fps
+- converted to 30fps
 - 2x frames than the original video
 
 ![output](https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/a3730f3e-9c53-4125-952e-75502c033f0d)
@@ -37,9 +37,9 @@ output video의 파일 확장자는 본래 .mkv 이다.
 - SuperSloMo.ckpt (pretrained model trained on adobe240fps dataset)
 - PyTorch
 
-[CLEAK HERE to download ffmpeg, SuperSloMo.ckpt](https://drive.google.com/drive/folders/1jmkBRSMIKqVE3b6zSCb4pn4ZT5Mn63Nu?usp=drive_link)
+[CLICK HERE to download ffmpeg, SuperSloMo.ckpt](https://drive.google.com/drive/folders/1jmkBRSMIKqVE3b6zSCb4pn4ZT5Mn63Nu?usp=drive_link)
 
-구글 드라이브에서 제공하는 ffmpeg는 Windows ffmpeg-6.0_full_build임. 
+위의 구글 드라이브를 통해 제공하는 ffmpeg의 버전은 (Windows용)ffmpeg-6.0_full_build이다. [ffmpeg 공식 다운로드 링크](https://www.ffmpeg.org/download.html)
 
 PyTorch 설치
 ```
@@ -51,6 +51,30 @@ git clone
 git clone https://github.com/jaewook520/opensw23-team_PJW.git
 ```
 
+Convert Video
+
+[video_to_slomo.py](video_to_slomo.py) 를 활용하여 동영상에 slow-motion을 적용하거나 fps를 바꿀 수 있다.
+
+아래와 같이 `--sf 2`, `--fps 30` 을 argument로 주면 output 영상의 fps를 30으로 설정하고 원본 영상보다 3x 프레임 더 한 영상을 얻을 수 있다.
+
+```bash
+# Form (Windows)
+python video_to_slomo.py --ffmpeg path\to\folder\containing\ffmpeg --video path\to\video.mp4 --sf N --checkpoint path\to\checkpoint.ckpt --fps M --output path\to\output.mkv
+
+# Example (Windows)
+python video_to_slomo.py --ffmpeg C:\dev\openSW\opensw23-team_PJW\ffmpeg-6.0-full_build\bin --video C:\dev\openSW\opensw23-team_PJW\misc\original.gif --sf 2 --checkpoint C:\dev\openSW\opensw23-team_PJW\checkpoint\SuperSloMo.ckpt --fps 30 --output output.mp4
+```
+
+| Optional Arguments | Description | 
+|------|:-----:|
+| --h | show this help message and exist |
+| --ffmpeg FFMPEG_DIR | path to ffmpeg.exe | 
+| --video VIDEO | path of video to be converted |
+| --checkpoint CHECKPOINT | path of checkpoint for pretrained model | 
+| --fps FPS | specify fps of output video. Default: 30. |
+| --sf SF | specify the slomo factor N. This will increase the frames by Nx. Example sf=2 ==> 2x frames |
+| --batch_size BATCH_SIZE | Specify batch size for faster conversion. This will depend on your cpu/gpu memory. Default: 1 |
+| --output OUTPUT | Specify output file name. Default: output.mp4 |
 
 
 ## Presentation
