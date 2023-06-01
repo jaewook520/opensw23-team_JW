@@ -67,7 +67,7 @@ git clone https://github.com/jaewook520/opensw23-team_PJW.git
 
 ```bash
 # Form (Windows)
-python video_to_slomo.py --ffmpeg path\to\folder\containing\ffmpeg --video path\to\video.mp4(.gif is fine) --sf N --checkpoint path\to\checkpoint.ckpt --fps M --output path\to\output.mkv
+python video_to_slomo.py --ffmpeg path\to\folder\containing\ffmpeg --video path\to\video.gif --sf N --checkpoint path\to\checkpoint.ckpt --fps M --output path\to\output.mkv
 
 # Example (Windows)
 python video_to_slomo.py --ffmpeg C:\dev\openSW\opensw23-team_PJW\ffmpeg-6.0-full_build\bin --video C:\dev\openSW\opensw23-team_PJW\misc\original.gif --sf 5 --checkpoint C:\dev\openSW\opensw23-team_PJW\checkpoint\SuperSloMo.ckpt --fps 30
