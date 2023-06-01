@@ -61,7 +61,7 @@ git clone https://github.com/jaewook520/opensw23-team_PJW.git
 
 #### Convert Video
 
-영상은 [video_to_slomo.py](video_to_slomo.py) 를 활용하여 slow-motion을 적용하거나 fps를 바꿀 수 있습니다.
+동영상은 [video_to_slomo.py](video_to_slomo.py) 를 활용하여 fps를 설정하고 frame 수를 배로 증가시켜 slow-motion이 적용된 새로운 영상을 얻을 수 있습니다.
 
 아래의 커맨드와 같이 `--sf 5`, `--fps 30` 을 argument로 주면 output 영상의 fps를 30으로 설정하고 원본 영상보다 5배 더 많은 프레임의 영상을 얻을 수 있습니다.
 
