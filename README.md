@@ -38,6 +38,7 @@ Super-SloMo는 비디오의 fps와 frame 값을 설정하여 슬로우 모션이
 - converted to 30fps
 - 5x frames than the original video (slow-motion)
 
+
 output video의 파일 확장자는 본래 .mkv 이지만 위의 output 비디오는 편의를 위하여 .mkv를 .gif로 파일 변환한 파일을 업로드 하였습니다.
 
 - 동영상 파일 변환 링크(mkv-to-gif): https://cloudconvert.com/mkv-to-gif
