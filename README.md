@@ -83,17 +83,26 @@ https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/7e96a6c1-acaa-4
 
 https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/d8cf04cc-525a-4ba4-8ac5-214ba661dd86
 
-### original video (4)
+## Experiment 4: frame수와 fps를 비례관계로 적용하기
+
+### 원본 영상
 
 https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/a20d96cb-0060-4f57-9893-b39936f8dd25
 
-### output video (4)
-
-https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/dfd1c048-540c-407f-a89b-c0146e810a02
+### output 영상 1
 
 설정 옵션:
 - `Fps`: 120
 - `Frame`: 6x than the original video
+- `File Format`: .mp4
+
+https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/dfd1c048-540c-407f-a89b-c0146e810a02
+
+### output 영상 2
+
+설정 옵션:
+- `Fps`: 24
+- `Frame`: 2x than the original video
 - `File Format`: .mp4
 
 ## Analysis/Visualization
