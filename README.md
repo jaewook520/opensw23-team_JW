@@ -47,6 +47,7 @@ https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/dae0fcf7-5eaf-4
 
 ### output video (2)
 
+https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/22f3dc10-be3c-4446-acd2-315ff90ae5bb
 
 #### Changes
 
@@ -92,7 +93,8 @@ python video_to_slomo.py --ffmpeg path\to\folder\containing\ffmpeg --video path\
 python video_to_slomo.py --ffmpeg C:\dev\openSW\opensw23-team_PJW\ffmpeg-6.0-full_build\bin --video C:\dev\openSW\opensw23-team_PJW\misc\original.gif --sf 5 --checkpoint C:\dev\openSW\opensw23-team_PJW\checkpoint\SuperSloMo.ckpt --fps 30 --output output.mkv
 
 # About output
-output 파일 형식으로 .mkv, .mp4, .gif을 제공한다.--output output.mkv / --output output.mp4 / --output output.gif ㄱ
+output 파일 형식으로 .mkv, .mp4, .gif을 제공한다.
+--output output.mkv / --output output.mp4 / --output output.gif
 ```
 특정 Library가 설치되지 않아서 위의 커맨드 실행 결과 오류가 나는 경우 다음과 같은 커맨드를 입력하여 필요한 라이브러리를 설치할 수 있습니다.
 ```bash
