@@ -43,6 +43,8 @@ output video의 파일 확장자는 본래 .mkv 이지만 위의 output 비디�
 
 - 동영상 파일 변환 링크(mkv-to-gif): https://cloudconvert.com/mkv-to-gif
 
+- ```output 동영상 파일 형식을 설정하는 방법에 대해서는 아래 Presentation의 'Code Improvement' 부분에서 참고하십시오.```
+
 ## Analysis/Visualization
 
 ## Installation
@@ -94,7 +96,7 @@ pip install tqdm
 | --fps FPS | specify fps of output video. Default: 30. |
 | --sf SF | specify the slomo factor N. This will increase the frames by Nx. Example sf=2 ==> 2x frames |
 | --batch_size BATCH_SIZE | Specify batch size for faster conversion. This will depend on your cpu/gpu memory. Default: 1 |
-| --output OUTPUT | Specify output file name. Default: output.mp4 |
+| --output OUTPUT | Specify output file name. Default: output.mkv |
 
 
 ## Presentation
