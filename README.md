@@ -22,7 +22,7 @@ input으로 비디오와 옵션으로 `--fps`, `--sf`, `--output`등을 입력�
 
 # Results
 
-> 핸드폰 카메라로 촬영한 총 8개의 영상 data set 중에서 결과값이 잘 나온 4가지 data set에 대한 결과를 소개합니다.
+> 핸드폰 카메라로 촬영한 총 8개의 영상 data set 중에서 결과값이 잘 나온 4가지 data set에 대한 결과
 
 ## Experiment 1: fps에 따른 변화 비교 (24 fps vs. 120 fps)
 
