@@ -162,6 +162,8 @@ end-to-end 합성곱 신경망을 사용하여 영상 보간을 수행하는 것
 
 > OS: Window11 
 
+> Python 3.10.7
+
 ## 2. Prerequisites (아래 파일들은 반드시 다운로드 되어야 함)
 - `ffmpeg`
 - `SuperSloMo.ckpt` (pretrained model trained on adobe240fps dataset)
