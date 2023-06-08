@@ -68,6 +68,8 @@ https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/22f3dc10-be3c-4
 - `Frame`: 6x than the original video
 - `File Format`: .mp4
 
+https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/51074c81-cc8b-48ea-8f65-9b63eacd754d
+
 ## Experiment 3: frame수와 fps를 이용하여 가장 느린/빠른 영상 만들기
 
 ### 원본 영상
