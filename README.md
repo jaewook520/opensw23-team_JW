@@ -72,7 +72,7 @@ https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/22f3dc10-be3c-4
 
 https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/51074c81-cc8b-48ea-8f65-9b63eacd754d
 
-## Experiment 3: fps를 낮추고 frame 수는 늘리기
+## Experiment 3: frame 수와 fps를 반비례관계로 적용
 
 ### 원본 영상
 
@@ -96,7 +96,7 @@ https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/d8cf04cc-525a-4
 
 https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/c13f5a3d-59d3-4f0b-9db8-bb8d2548b84b
 
-## Experiment 4: frame수와 fps를 비례관계로 적용하기
+## Experiment 4: frame 수와 fps를 비례관계로 적용
 
 ### 원본 영상
 
