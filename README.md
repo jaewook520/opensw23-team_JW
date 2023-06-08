@@ -35,12 +35,11 @@ Super-SloMo는 비디오의 fps와 frame 값을 설정하여 슬로우 모션이
 
 ### original video (1)
 
-https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/80f14a40-161b-4261-b5d3-7f8b827893ba
+https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/80f14a40-161b-4261-b5d3-7f8b827893ba  
 
 ### output video (1)
 
-[![Video Label](http://img.youtube.com/vi/ORUmPOS7BKI/0.jpg)](https://www.youtube.com/shorts/ORUmPOS7BKI)
-
+https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/d0470a27-cf2a-4a6f-92ae-cf9ec2bd2495
 
 ### original video (2)
 
