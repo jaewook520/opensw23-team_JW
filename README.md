@@ -107,6 +107,8 @@ https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/dfd1c048-540c-4
 - `Frame`: 2x than the original video
 - `File Format`: .mp4
 
+https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/7a7ea53c-63b3-425d-a243-ae7f9ae046a9
+
 ## Analysis/Visualization
 
 연속된 두 프레임이 주어졌을 떄, 영상 보간은 공간/시간적으로 일관된 비디오 스퀀스를 형성하기 위해 중간 프레임을 생성하는 것을 목표로 합니다. 대부분의 기존 방법은 단일 프레임 보간에 초점을 맞추지만, 해당 프로젝트에서는 가변 길이의 멀티 프레임 보간을 위한 end-to-end 합성곱 신경망을 제안합니다.
