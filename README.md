@@ -26,6 +26,13 @@ Super-SloMo는 비디오의 fps와 frame 값을 설정하여 슬로우 모션이
 
 ## Results
 
+실험 환경 
+
+- CPU: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz   1.80 GHz 
+- Graphic Card: Intel(R) UHD Graphics 620
+- OS: Window11
+- RAM: 8G
+
 ### original video
 ![original](https://github.com/jaewook520/opensw23-team_PJW/assets/127181246/da4ec5f2-13ba-496d-b031-ac1e61ed6fb2)
 
